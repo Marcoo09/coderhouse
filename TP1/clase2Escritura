@@ -1,0 +1,93 @@
+Clase 2:
+
+-V8 motor de node.
+-Externo:<script src="-/-.js"/>,
+		
+			O
+		Local: <script>
+					code js
+						</script>
+						O
+				inline: <div onclick="function();"></div>
+
+		SE RECOMIENDA PONER ABAJO ANTES DE TERMINAR EL BODY
+
+		Sintaxis:
+
+			________;
+
+			variables:
+
+			var ____=______;
+
+Matrices o arreglos
+
+var ___= [1,2,3,4];
+
+    AArrancan del indice 0.
+    Este array seria un arreglo de 4x1 en una dimension;
+
+
+    objetos:
+    obj={
+
+    	id(significa clave de valor):123(valor),
+    	name:kadaJKSDJA
+    };
+
+se separa por comas cada clave de valor
+formas de llamar un objeto es:
+
+
+obj.name;
+o
+obj["name"];
+
+para crear un objeto desde fuera
+
+obj.lastName="j";
+
+variables globales y locales:
+
+var foo=3;
+
+Function(){
+	
+	console.log(foo);
+}();;
+//aca definimos una variable global
+
+
+(function(){var foo=5;})();
+
+//function anonima, la variable que esta dentro es local
+
+PALABRAS RESERVADAS:
+
+if, else, else if, for, array, do,switch, case, break, delete, var, catch, with, instance of,typeof(devolver el tipo de variable)
+
+if:
+
+condicional
+
+and &&
+or ||
+
+== identico
+=== igual
+
+funciones:
+
+Funcion anonima:
+(function(a){
+	
+
+})();
+
+
+var abc= function(a,b){
+	
+	return a+b;
+};
+
+LOS PARAMETROS QUE LE ASIGNAS DE MAS A UNA FUNCION AL LLAMARLA, ESTOS SE GUARDAN EN UNA VARIABLE LA CUAL ES UN OBJETO LA CUAL SE LLAMA ARGUMENTS.
