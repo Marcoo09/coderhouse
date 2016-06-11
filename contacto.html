@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script src="js/confirmacion.js" type="text/javascript">
+    </script>
+    <link href="css/estilos1.css" rel="stylesheet" type="text/css">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>inicio</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="contenedor_textual">
+            <div id="primer_cabecera">
+                <a href="index.html"><img height="227" src=
+                "imagenes/logo3.fw.png" width="313"></a>
+            </div>
+            <div id="menu">
+                <nav class="segunda_cabecera">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="peliculas.html">Peliculas</a>
+                        </li>
+                        <li>
+                            <a href="proximamente.html">Proximamente</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html">Contacto</a>
+                        </li>
+                        <li>
+                            <a href="entretenimiento.html">Entretenimiento</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="texto">
+                <div style="text-align:center;">
+                    <form class="bordesDelInput" id="validando" name=
+                    "validando">
+                        <table align="center">
+                            <tr>
+                                <td>Nombre:</td>
+                                <td><input id="nombre" name="" placeholder=
+                                "Nombre completo" required="" type="text"></td>
+                                <td>Edad:</td>
+                                <td><input id="edad" name="" placeholder=
+                                "Edad verdadera" required="" type=
+                                "number"></td>
+                            </tr>
+                            <tr>
+                                <td>Correo electronico:</td>
+                                <td class="3"><input id="email" name=""
+                                placeholder="Tú correo" required="" type=
+                                "email"></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Formas de pago</td>
+                                <td><select id="pago" name="" required="">
+                                    <option>
+                                        </option>
+                                    <option>
+                                        Visa
+                                    </option>
+                                    <option>
+                                        Mastercard
+                                    </option>
+                                    <option>
+                                        Oca
+                                    </option>
+                                </select></td>
+                                <td>Precio</td>
+                                <td><input id="precio" name="" type=
+                                "text"></td>
+                            </tr>
+                            <tr>
+                                <td>Pelicula a alquilar:</td>
+                                <td><select id="peliculaAlquilada" name=""
+                                required="">
+                                    <option>
+                                        </option>
+                                    <option value="190">
+                                        Alvin Y las ardilla
+                                    </option>
+                                    <option value="190">
+                                        Brooklyn
+                                    </option>
+                                    <option value="190">
+                                        Deadpool
+                                    </option>
+                                    <option value="190">
+                                        Dinosaurio
+                                    </option>
+                                    <option value="190">
+                                        Viaje Espacial
+                                    </option>
+                                    <option value="190">
+                                        Guerra de papas
+                                    </option>
+                                    <option value="190">
+                                        El renacido
+                                    </option>
+                                    <option value="190">
+                                        Como sobrevivir a ser soltera
+                                    </option>
+                                    <option value="190">
+                                        Zoolander2
+                                    </option>
+                                    <option value="190">
+                                        Zootopía
+                                    </option>
+                                </select></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Cantidad de tiempo:</td>
+                                <td><input id="tiempo" name="" placeholder=
+                                "Tiempo de alquilado" required="" type=
+                                "text"></td>
+                                <td>Fecha de hoy:</td>
+                                <td><input id="fecha" name="" required="" type=
+                                "date"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">
+                                <textarea cols="100%" id="msj" name="msj"
+                                placeholder="Dejanos un comentario" rows=
+                                "5"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td><input id="enviar" onclick="confirmar();"
+                                type="submit" value="Enviar"></td>
+                                <td><input id="reset" type="reset" value=
+                                "Resetear"></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div><iframe allowfullscreen="" frameborder="0" height="450"
+                src=
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.589106043108!2d-56.16525538455604!3d-34.86655047895961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xcff022a6fc5ff8d7!2sLa+Esquina+Azul!5e0!3m2!1ses!2suy!4v1456520181239"
+                style="border:0" width="900"></iframe>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <a href=""><img alt="" class="facebook" height="40px"
+                        src="redesSociales/social_facebook_fb_2763.png" width=
+                        "40px"></a>
+                    </li>
+                    <li>
+                        <a href=""><img alt="" class="twitter" height="40px"
+                        src="redesSociales/twitter-xxl.png" width="40px"></a>
+                    </li>
+                    <li>
+                        <a href=""><img alt="" class="instagram" height="40px"
+                        src="redesSociales/Instagram-Icon.png" width=
+                        "40px"></a>
+                    </li>
+                    <li>
+                        <a href=""><img alt="" class="whatsapp" height="40px"
+                        src="redesSociales/whatsapp.png" width="40px"></a>
+                    </li>
+                    <li>
+                        <a href=""><img alt="" class="google" height="40px"
+                        src="redesSociales/Google+.png" width="40px"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="trasparente" id="footer">
+                <p align=" center" class="foot">Marco Fiorito&copy;</p>
+                <p class="foot" style="float:right; font-size:16px;">E-mail:
+                marcofiorito1@hotmail.com</p>
+                <p class="foot" style="float:left; font-size:16px;">Celular:
+                095041136</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
