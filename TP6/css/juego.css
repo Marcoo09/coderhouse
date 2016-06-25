@@ -1,0 +1,33 @@
+#boton{
+margin: 0 auto;
+height: 50%;
+width:20%;
+background-color: #FF8D00;
+border-bottom: 2px solid #A75C00;
+border-top: 0.5px solid #FFA83B;
+border-radius: 4px;
+display: inline;
+
+}
+
+
+.contenido{
+		font-family: Pacifico;
+		font-size: 30px;
+		display: block;
+
+}
+#eleccion_jugador{
+				color:#00E989;
+}
+#eleccion_computadora{
+				color:#8A00E9;
+}
+#tabla{
+	position: relative;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	height: 100%;
+
+}
